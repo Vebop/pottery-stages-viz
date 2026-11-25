@@ -19,7 +19,7 @@ function App() {
     };
 
     // Set a new activeCeramic when a stage-card reaches options's threshold
-    function callback( entries ) {
+    const callback: IntersectionObserverCallback = (entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const stageId = entry.target.getAttribute('data-stage-id');
