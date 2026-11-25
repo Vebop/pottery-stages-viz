@@ -1,7 +1,5 @@
 # Phases of Making Pottery
 
-# Phases of Making Pottery
-
 A small React and TypeScript app that turns the stages of making pottery into a
 scrolly telling data visualization. As you move through each stage, the metrics
 panel updates to show hydration, temperature, shrinkage, and other details.
